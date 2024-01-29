@@ -1,0 +1,56 @@
+/* HeroSection.css ('/Users/saibharath/solid/solids/src/Screenshot 2023-12-16 at 11.15.57 PM.png')*/
+
+/* HeroSection.css */
+
+.hero-section {
+    background-image: url('/Users/saibharath/solid/solids/src/Images/dp.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fdfcfc;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    background-color: #0056b3; /* Choose a color that matches your design */
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #003d82; /* Darker shade for hover effect */
+  }
+  
+  /* Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+    .hero-subtitle {
+      font-size: 1.25rem;
+    }
+  }
+  

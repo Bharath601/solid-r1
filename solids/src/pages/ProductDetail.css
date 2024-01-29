@@ -1,0 +1,143 @@
+.product-detail-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: #f8f8f8; /* Light background for the product detail container */
+    padding: 2rem;
+    border-radius: 15px; /* Rounded corners for the container */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    align-items: center;
+  }
+  
+  .product-images {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .product-preview {
+    max-width: 80%; /* Smaller image size */
+    border-radius: 15px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the image */
+  }
+  
+  .product-detail-info {
+    flex: 1;
+    padding: 1rem;
+    color: #333; /* Darker font color for contrast */
+  }
+  
+  .product-title {
+    font-size: 2.5rem;
+    color: #5c5b5b; /* Brand color for the title */
+    font-weight: 600;
+  }
+  
+  .product-price {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    color: #333; /* Consistent font color */
+  }
+  
+  .size-selector {
+    margin: 1rem 0;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #333;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #555;
+  }
+  .customize-btn  {
+    background-color: #333;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  .customize-btn :hover {
+    background-color: #555;
+  }
+  
+  .product-description {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Additional styles for size selector and labels */
+  .size-selector label {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+  }
+  
+  .size-selector select {
+    padding: .5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style adjustments for the description list */
+  .product-description ul {
+    padding-left: 20px;
+  }
+  
+  .product-description li {
+    margin-bottom: 0.5rem;
+  }
+  .product-preview {
+  position: relative;
+  width: 100%; /* Adjust as necessary */
+  /* Other styles */
+}
+
+.custom-image-preview {
+  position: absolute;
+  top: 10%; /* Adjust as necessary */
+  left: 10%; /* Adjust as necessary */
+  width: 80%; /* Adjust as necessary */
+  height: auto;
+  /* Other styles to properly fit the design on the hoodie */
+}
+
+/* Style for customization section */
+.customization-section {
+  margin-top: 20px;
+}
+.hoodie-image-container {
+  position: relative;
+}
+
+.product-preview {
+  width: 100%; /* Adjust as needed */
+}
+
+.custom-image-preview {
+  position: absolute;
+  /* Default position, adjust as necessary */
+  top: 50px;
+  left: 50px;
+}
+
+/* Style for image position controls */
+.image-position-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+/* Other styles */

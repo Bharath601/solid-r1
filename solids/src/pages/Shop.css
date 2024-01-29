@@ -1,0 +1,26 @@
+/* Shop.css */
+.shop-page {
+  padding: 2rem;
+  background: #ffffff; /* Light background to contrast the cards */
+}
+
+.shop-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333; /* Dark color for title */
+  font-weight: bold;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem; /* More space between cards */
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr; /* Stack cards on smaller screens */
+  }
+}
+

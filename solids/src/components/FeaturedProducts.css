@@ -1,0 +1,34 @@
+/* FeaturedProducts.css */
+
+
+  .featured-products {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: #000000; /* Change this as needed */
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px; /* Adjust the max width as needed */
+    margin-top: 2rem;
+  }
+  
+  .product-item {
+    border: 1px solid #e1e1e1; /* Simple border - replace with actual product styles */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #f9f9f9; /* Slight grey background for each item */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Fixed height, adjust as necessary */
+    /* Add more styles for product items */
+  }

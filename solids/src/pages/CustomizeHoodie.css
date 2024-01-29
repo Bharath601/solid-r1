@@ -1,0 +1,89 @@
+/* CustomizeHoodie.css */
+
+.customize-container {
+  display: flex;
+  flex-direction: column; /* Changed to column for a vertical layout */
+  align-items: center;
+  justify-content: center; /* Center items vertically */
+  padding: 20px;
+  background-color: #ffffff;
+  height: 100vh; /* Take full viewport height */
+}
+
+.hoodie-customize-image-container {
+  position: relative;
+  margin-bottom: 40px; /* Increased for more space */
+}
+
+.hoodie-image {
+  width: 80%; /* Make it responsive */
+  max-width: 600px; /* Maximum width */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.custom-design-preview {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 200px;
+  max-height: 200px;
+  z-index: 10;
+}
+
+.customization-controls {
+  width: 100%; /* Take full width of container */
+  text-align: center; /* Center buttons and inputs */
+}
+
+.customization-controls label,
+.customization-controls input {
+  margin-bottom: 10px;
+}
+
+#upload-design {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer; /* Indicate it's clickable */
+  margin-bottom: 20px; /* More space before the button */
+}
+
+button {
+  padding: 10px 20px; /* Uniform padding */
+  margin: 10px; /* Space between buttons */
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* Align buttons side by side */
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.contact-customization-btn {
+  background-color: #1f201f; /* Optional: Change button color */
+  margin-right: 20px; /* Add space between buttons */
+}
+
+/* Ensure the back to shop button is on a new line */
+.back-to-shop-btn {
+  display: block; /* New line for the button */
+  margin-top: 20px; /* Space from the previous elements */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hoodie-image {
+      width: 80%; /* Adjust image size on smaller screens */
+  }
+}
+
+  /* Add more customization options and styles as needed */
+  

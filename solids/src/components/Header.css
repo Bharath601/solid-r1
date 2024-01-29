@@ -1,0 +1,161 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .navigation .dropdown {
+    position: relative;
+  }
+  
+  .dropdown .dropbtn,
+  .dropdown .dropbtn-nested {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .dropdown .dropbtn::after {
+    content: '▼';
+    padding-left: 5px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .nav-link {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content .dropbtn-nested {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .dropdown-content-nested {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #060000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.2);
+  }
+  
+  .dropdown:hover .dropdown-content,
+  .dropdown-content .dropbtn-nested:hover .dropdown-content-nested {
+    display: block;
+  }
+  
+  .dropdown-content .nav-link:hover,
+  .dropdown-content-nested .nav-link:hover {
+    background-color: #ddd;
+  }
+  
+  .auth-links .nav-link {
+    background-color: transparent;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropbtn {
+    /* ... existing styles ... */
+    background-color: transparent; /* No background color */
+    color: white; /* Text color */
+    /* ... existing styles ... */
+  }
+  
+  /* Dropdown Content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000; /* Dropdown background color to black */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .nav-link {
+    color: white; /* Text color to white */
+    padding: 16px; /* Increase padding for bigger size */
+    text-decoration: none;
+    display: block;
+    font-size: 1.1rem; /* Increased font size */
+  }
+  
+  .dropdown-content .nav-link:hover {
+    background-color: #333; /* Darker shade for hover */
+  }
+  
+  /* Nested Dropdown Content */
+  .dropdown-content-nested {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #000; /* Nested dropdown background color to black */
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  }
+  
+/* ... existing styles ... */
+
+.header {
+    /* Keep existing styles, ensure the background-color is set to what you desire */
+    background-color: #030000; /* Example: dark grey */
+  }
+  
+  /* Dropdown Button */
+  .dropbtn {
+    /* ... existing styles ... */
+    border-radius: 10px; /* Adjust as needed for rounded corners */
+  }
+  
+  /* Dropdown Content */
+  .dropdown-content {
+    /* ... existing styles ... */
+    background-color: #333; /* Same as header background color */
+    border-radius: 10px; /* Adjust as needed for rounded corners */
+  }
+  
+  .dropdown-content .nav-link {
+    /* ... existing styles ... */
+    border-radius: 10px; /* Adjust as needed for rounded corners within the dropdown */
+  }
+  
+  .dropdown-content .nav-link:hover {
+    background-color: #040000; /* Slightly lighter for hover, adjust as desired */
+  }
+  
+  /* Nested Dropdown Content */
+  .dropdown-content-nested {
+    /* ... existing styles ... */
+    background-color: #333; /* Same as header background color */
+    border-radius: 10px; /* Adjust as needed for rounded corners */
+  }
+  
+ 
+  
