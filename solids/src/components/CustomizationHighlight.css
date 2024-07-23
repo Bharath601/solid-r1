@@ -1,12 +1,22 @@
-/* CustomizationHighlight.css */
-
 .customization-highlight {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: #f7f7f7; /* or any other color that suits your design */
-  }
-  
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.customize-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.customize-button:hover {
+  background-color: #45a049;
+}

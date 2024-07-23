@@ -1,11 +1,16 @@
 import React from 'react';
+import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white text-center p-4">
-      <div className="container mx-auto px-6">
-        <p>© {new Date().getFullYear()} Solid Hoodie & T-Shirt Store</p>
-        
+    <footer className="footer">
+      <div className="footer-content">
+        <p>&copy; {new Date().getFullYear()} Hoodies & T-Shirts Store</p>
+        <div className="social-media">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
       </div>
     </footer>
   );

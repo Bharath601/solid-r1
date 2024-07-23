@@ -1,0 +1,38 @@
+.product-upload-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .product-upload-form label {
+    margin-bottom: 10px;
+  }
+  
+  .product-upload-form input,
+  .product-upload-form textarea,
+  .product-upload-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .product-upload-form button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-upload-form button:hover {
+    background-color: #0056b3;
+  }
+  

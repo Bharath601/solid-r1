@@ -1,26 +1,42 @@
-/* Shop.css */
 .shop-page {
-  padding: 2rem;
-  background: #ffffff; /* Light background to contrast the cards */
+  padding: 20px;
+}
+
+.shop-nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.shop-nav-item {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.shop-nav-item:hover {
+  color: #555;
+}
+
+.shop-nav-item.active {
+  color: #000;
+  border-bottom: 2px solid #000;
 }
 
 .shop-title {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: #333; /* Dark color for title */
-  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2em;
 }
 
 .product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem; /* More space between cards */
-  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
 }
-
-@media (max-width: 600px) {
-  .product-grid {
-    grid-template-columns: 1fr; /* Stack cards on smaller screens */
-  }
-}
-

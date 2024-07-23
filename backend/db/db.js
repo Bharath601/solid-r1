@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connectDB = async ( ) =>{
     try{
-        const mongoURI = 'mongodb+srv://A_S_B:Bharath601@museumcluster2.giwmk6j.mongodb.net/Sample_database';
+        const mongoURI = 'mongodb://localhost:27017/solid';
         await mongoose.connect(mongoURI);
         console.log('Mongo connected ...');
     }
